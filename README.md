@@ -14,6 +14,7 @@ This is really fantastic opportunity for science because It really permits NASA 
 # Data Visualization
 - Using different libraries for data visualization
 - Libraries: matplotlib, Plotly, Basemap, seaborn
+![equilateral_Xco2_variations](3.jpeg)
 
 # Individual Files
 - Each individual file has different instructions and steps
