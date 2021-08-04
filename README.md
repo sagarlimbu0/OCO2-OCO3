@@ -7,9 +7,6 @@ When flying a payload on the International Space Station (ISS), the OCO3 mission
 This means we have 2 of the same instruments that is currently flying and since they fly differently - polar orbit versus a processing orbit
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
-![image](https://user-images.githubusercontent.com/60721866/128257971-abae55c4-24af-4a74-bd5b-8c9d7a684238.png)
-
-
 # Reading the OCO2/OCO3 Datasets
 - Using the following libraries to perform data preprocessing before data anlysis and visualization
 - Libraries: dask, netCDF, pandas, numpy
