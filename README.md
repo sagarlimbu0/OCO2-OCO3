@@ -1,4 +1,8 @@
 # OCO2-OCO3
+
+<b>Intern:</b> Sagar Limbu
+<b>Mentors:</b> Karen Yuen and Charles Thompson
+
 ![OCO2_OCO3](OCO2_OCO3.png)
 
 <b>OCO2</b> is the first dedicated satellite to study Carbon Dioxide launched in July 2, 2014 and <b>OCO3</b> 
