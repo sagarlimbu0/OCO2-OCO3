@@ -1,7 +1,9 @@
 # OCO2-OCO3
 
-<b>Intern:</b> Sagar Limbu
-<b>Mentors:</b> Karen Yuen and Charles Thompson
+* <b>Intern:</b> Sagar Limbu
+* <b>Mentors:</b> Karen Yuen and Charles Thompson
+
+
 
 ![OCO2_OCO3](OCO2_OCO3.png)
 
