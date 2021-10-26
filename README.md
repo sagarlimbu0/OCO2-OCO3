@@ -25,7 +25,6 @@ This is really fantastic opportunity for science because It really permits NASA 
 The Earth system maintains checks and balances on carbon dioxide through the carbon cycle and what we call sources and sinks. Carbon dioxide (CO2) is one of the most important Greenhouse Gases (GHG) that supports life on Earth and the primary GHG quantifiable from anthropogenic sources. Thus, it is important to understand the role of atmospheric CO2 in understanding the carbon cycle balance. The primary science objective of the OCO-2 and OCO-3 missions is to collect the atmospheric carbon dioxide (CO2) dry air mole fraction, XCO2, with the precision, resolution, and coverage needed to improve our understanding of surface CO2 sources and sinks (fluxes) on regional scales. 
 The main objective of the project is to display datapoints of XCO2 and showing the change over time that can provide a status of the atmospheric Carbon cycle variability by the given year.
 
-![equilateral_Xco2_variations](3.jpeg)
 ![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/2019_half_year.gif)
 
 # Individual Files
