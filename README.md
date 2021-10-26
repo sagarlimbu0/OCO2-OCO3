@@ -26,6 +26,7 @@ The Earth system maintains checks and balances on carbon dioxide through the car
 The main objective of the project is to display datapoints of XCO2 and showing the change over time that can provide a status of the atmospheric Carbon cycle variability by the given year.
 
 ![equilateral_Xco2_variations](3.jpeg)
+![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/2019_half_year.gif)
 
 # Individual Files
 - Each individual file has different instructions and steps
