@@ -1,0 +1,6 @@
+curl -XPOST -H "Content-Type: application/json" -H "Client-Id: GCMD" https://cmr.uat.earthdata.nasa.gov/search/collections
+-d '{"condition": { "and": [{ "not": { "or": [{ "provider": "TEST" },
+{ "and": [{ "project": "test-project",
+"platform": "mars-satellite" }]}]}},
+{ "bounding_box": [-45,15,0,25],
+"science_keywords": { "category": "EARTH SCIENCE" }}]}}'
