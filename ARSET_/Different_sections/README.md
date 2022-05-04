@@ -1,3 +1,4 @@
+Coding sections divided into two parts. For creating visualization using two different libraries for this tutorial: Plotly and Basemap.
 Links to nbviewer to display the code since the notebook size too large to render
 
 (CTRL + click) on Windows and Linux, (CMD + click) on MacOS
