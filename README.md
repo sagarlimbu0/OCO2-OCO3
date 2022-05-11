@@ -27,5 +27,10 @@ The main objective of the project is to display datapoints of XCO2 and showing t
 
 ![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/2019_half_year.gif)
 
+# XCO2 variation by months
+OCO2 data representing the variation of XCO2 by different years. Script of R code located inside ARSET/ directory representing the california region.
+
+![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/ARSET_/california_xco2_variation/variation_by_months_oco2_2014_2020.gif)
+
 # Individual Files
 - Each individual file has different instructions and steps
