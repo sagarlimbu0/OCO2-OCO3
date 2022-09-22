@@ -13,10 +13,23 @@ When flying a payload on the International Space Station (ISS), the OCO3 mission
 This means we have 2 of the same instruments that is currently flying and since they fly differently - polar orbit versus a processing orbit
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
-# Reading the OCO2/OCO3 Datasets
-- Using the following libraries to perform data preprocessing before data anlysis and visualization
-- Libraries: dask, netCDF, pandas, numpy
+# Accessing the OCO2/OCO3 Datasets
+### Getting started with EarthData Search website:
+By visiting the website and following instructions provided on FAQ contents:
+(Ctrl + Click)
+[EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
 
+### Getting access via APIs
+(Ctrl+click)
+[earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
+- Eg: using `pydap` to get access the OCO2 datasets using credentials
+[vol_2_access_via_pydap](https://nbviewer.org/github/sagarlimbu0/OCO2-OCO3/blob/main/ARSET_/vol_2_pydap_access_EarthData.ipynb)
+
+# Libraries to READ datasets
+- Libraries: 
+  - netCDF, pandas, numpy
+  - dask // to perfrom data aggregation and data-preprocessing
+  
 # Data Visualization
 - Using different libraries for data visualization
 - Libraries: matplotlib, Plotly, Basemap, seaborn
