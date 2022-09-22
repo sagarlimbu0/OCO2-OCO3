@@ -5,7 +5,7 @@
 
 
 
-![OCO2_OCO3](OCO2_OCO3.png)
+![OCO2_OCO3](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/OCO2_OCO3.png)
 
 <b>OCO2</b> is the first dedicated satellite to study Carbon Dioxide launched in July 2, 2014 and <b>OCO3</b> 
 is the sister of OCO2 because it has similar instrument sensitivity and performance characteristics to OCO2.
