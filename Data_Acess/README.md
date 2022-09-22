@@ -3,5 +3,11 @@
 2. Getting access via `pydap` library
 
 
-Getting access via APIs
-[earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc){:target"_blank" rel="noopener"}
+### Getting started with EarthData Search website:
+By visiting the website and following instructions provided on FAQ contents:
+(Ctrl + Click)
+[EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
+
+### Getting access via APIs
+(Ctrl+click)
+[earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
