@@ -24,6 +24,9 @@ By visiting the website and following instructions provided on FAQ contents:
 [vol_2_access_via_pydap](https://nbviewer.org/github/sagarlimbu0/OCO2-OCO3/blob/main/ARSET_/vol_2_pydap_access_EarthData.ipynb)
 
 # Libraries to READ datasets
+- Data visualization of OCO2/OCO3 dataset:
+- Example:
+[Data_Visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 - Libraries: 
   - netCDF, pandas, numpy
   - dask // to perfrom data aggregation and data-preprocessing
