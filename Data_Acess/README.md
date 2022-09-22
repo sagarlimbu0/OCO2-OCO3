@@ -4,4 +4,4 @@
 
 
 Getting access via APIs
-[!earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
+[earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc){:target"_blank" rel="noopener"}
