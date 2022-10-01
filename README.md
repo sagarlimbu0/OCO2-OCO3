@@ -1,6 +1,6 @@
 # OCO2-OCO3
 
-* <b>Intern:</b> Sagar Limbu
+* Sagar Limbu
 * <b>Mentors:</b> Karen Yuen and Charles Thompson
 
 
