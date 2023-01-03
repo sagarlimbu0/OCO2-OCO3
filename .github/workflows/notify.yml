@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Notify when someone creates pull request on main branch
         id: notify-on-pr
-        
+        uses: ./
+  
       - name: Run
         run: echo 'Sending notification'
