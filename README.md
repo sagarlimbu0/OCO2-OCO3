@@ -21,7 +21,7 @@ By visiting the website and following instructions provided on FAQ contents:
 ### Getting access via APIs
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
 - Eg: using `pydap` to get access the OCO2 datasets using credentials
-[vol_2_access_via_pydap](https://nbviewer.org/github/sagarlimbu0/OCO2-OCO3/blob/main/ARSET_/vol_2_pydap_access_EarthData.ipynb)
+[vol_2_access_via_pydap](https://github.com/sagarlimbu0/ARSET_2022_spring/blob/main/Different_sections/vol_2_pydap_earthdata_login.ipynb)
 
 # Libraries to READ datasets
 - Data visualization of OCO2/OCO3 dataset:
