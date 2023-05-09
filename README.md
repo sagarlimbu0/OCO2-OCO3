@@ -18,10 +18,10 @@ This is really fantastic opportunity for science because It really permits NASA 
 By visiting the website and following instructions provided on FAQ contents:
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
 
-### Getting access via APIs
+### Getting Data Access via APIs
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
 - Eg: using `pydap` to get access the OCO2 datasets using credentials
-[vol_2_access_via_pydap](https://github.com/sagarlimbu0/ARSET_2022_spring/blob/main/Different_sections/vol_2_pydap_earthdata_login.ipynb)
+[vol_2_access_via_pydap](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/example/plot_map_with_multiple_functions.ipynb)
 
 # Libraries to READ datasets
 - Data visualization of OCO2/OCO3 dataset:
