@@ -21,9 +21,9 @@ By visiting the website and following instructions provided on FAQ contents:
 ### Getting Data Access via APIs
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
 - Eg: using `pydap` to get access the OCO2 datasets using credentials
-[vol_2_access_via_pydap](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/example/plot_map_with_multiple_functions.ipynb)
+[using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
-# Libraries to READ datasets
+## Libraries to READ datasets
 - Data visualization of OCO2/OCO3 dataset:
 - Example:
 [Data_Visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
@@ -31,14 +31,24 @@ By visiting the website and following instructions provided on FAQ contents:
   - netCDF, pandas, numpy
   - dask // to perfrom data aggregation and data-preprocessing
   
-# Data Visualization
+## Data Visualization
 - Using different libraries for data visualization
-- Libraries: matplotlib, Plotly, Basemap, seaborn
+- Libraries: 
+  - matplotlib 
+  - pydap
+  - Plotly
+  - Basemap
+  - seaborn
+### Setup environment using Docker
+- Using the docker to setup environment to install required packages:
+- [setup env.](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization)
 
 # Introduction
 The Earth system maintains checks and balances on carbon dioxide through the carbon cycle and what we call sources and sinks. Carbon dioxide (CO2) is one of the most important Greenhouse Gases (GHG) that supports life on Earth and the primary GHG quantifiable from anthropogenic sources. Thus, it is important to understand the role of atmospheric CO2 in understanding the carbon cycle balance. The primary science objective of the OCO-2 and OCO-3 missions is to collect the atmospheric carbon dioxide (CO2) dry air mole fraction, XCO2, with the precision, resolution, and coverage needed to improve our understanding of surface CO2 sources and sinks (fluxes) on regional scales. 
 The main objective of the project is to display datapoints of XCO2 and showing the change over time that can provide a status of the atmospheric Carbon cycle variability by the given year.
-
+### Specific targetted region example:
+![alt_text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/oco3_xco2_visualization.png)
+### Global Scale of XCO2 seasonality trends
 ![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/2019_half_year.gif)
 
 # XCO2 variation by months
