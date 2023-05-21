@@ -10,7 +10,7 @@ When flying a payload on the International Space Station (ISS), the OCO3 mission
 This means we have 2 of the same instruments that is currently flying and since they fly differently - polar orbit versus a processing orbit
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
-## 1. Accessing the OCO2/OCO3 Datasets
+### 1. Accessing the OCO2/OCO3 Datasets
 #### 1.a. Getting started with EarthData Search website:
 By visiting the website and following instructions provided on FAQ contents:
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
