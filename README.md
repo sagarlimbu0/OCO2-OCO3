@@ -17,7 +17,8 @@ By visiting the website and following instructions provided on FAQ contents:
 
 #### 1.b. Getting Data Access via APIs
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
-- Eg: using `pydap` to get access the OCO2 datasets using credentials
+- In this example, we have used OpenDAP tool (client/server software)
+-  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
 [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
 ### 2.a. Libraries to READ datasets
