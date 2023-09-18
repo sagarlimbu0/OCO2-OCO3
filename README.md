@@ -19,7 +19,7 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 2. [Libraries installation](#Libraries-installation)
 3. [Data Visualization](#Data-Visualization)
 4. [Setup environment using Docker](#Setup-environment-using-Docker)
-5. [Brief Introduction](#Brief-Introduction)
+5. [Demonstration](#Demonstration)
 
 ### 1. Accessing the OCO2/OCO3 Datasets
 - To download OCO2/OCO3 data files from the Earth Data Search website, you can follow these steps: First, access the Earth Data Search website and navigate to the OCO2/OCO3 dataset of interest. Then, specify your search criteria such as time range, geographical area, and data product type. You may need to log in or create an account if prompted. Finally, follow the on-screen instructions to complete the download process, and once the files are downloaded, they can be accessed and utilized for further analysis or visualization.
@@ -57,20 +57,18 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 - 4.b. Using the docker to setup environment to install required packages:
   - (Ctrl + Click) [setup env.](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization)
 
-### 5. Brief Introduction (OCO2/OCO3)
-The Earth system maintains checks and balances on carbon dioxide through the carbon cycle and what we call sources and sinks. Carbon dioxide (CO2) is one of the most important Greenhouse Gases (GHG) that supports life on Earth and the primary GHG quantifiable from anthropogenic sources. Thus, it is important to understand the role of atmospheric CO2 in understanding the carbon cycle balance. The primary science objective of the OCO-2 and OCO-3 missions is to collect the atmospheric carbon dioxide (CO2) dry air mole fraction, XCO2, with the precision, resolution, and coverage needed to improve our understanding of surface CO2 sources and sinks (fluxes) on regional scales. 
-The main objective of the project is to display datapoints of XCO2 and showing the change over time that can provide a status of the atmospheric Carbon cycle variability by the given year.
+### 5. Demonstration (OCO2/OCO3)
+The principal aim of this project is to present data points representing XCO2 and illustrate their temporal evolution, thereby offering insight into the variability of the atmospheric carbon cycle for a specified year. In this context, the project utilizes the "vertices" attributes of carbon footprints to generate polygonal shapes, facilitating the visualization of carbon footprint patterns. 
 
-### Specific targetted region example:
+### target region: San Francisco
 ![alt_text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/oco3_xco2_visualization.png)
 
 ### Global Scale of XCO2 seasonality trends
 ![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/2019_half_year.gif)
 
-### XCO2 variation by months
+### OCO2, XCO2 variation by months
 OCO2 data representing the variation of XCO2 by different years. THe visualization built on R code located inside ARSET/ directory representing the california region. <b>NOTE:</b> OCO2 launched on 2014 July, so for this reason the plots displayed in the later months.
 
 ![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/variation_by_months_oco2_2014_2020.gif)
 
-### Individual Files
-- Each individual file has different instructions and steps
+- for any questions, please raise issue in this repository. Thanks
