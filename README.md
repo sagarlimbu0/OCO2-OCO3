@@ -10,16 +10,16 @@ When flying a payload on the International Space Station (ISS), the OCO3 mission
 This means we have 2 of the same instruments that is currently flying and since they fly differently - polar orbit versus a processing orbit
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
+### Google Collab Demo; Data visualization of xco2
+Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region. 
+- (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
+
 ## Table of Contents:
 1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
 2. [Libraries installation](#Libraries-installation)
 3. [Data Visualization](#Data-Visualization)
 4. [Setup environment using Docker](#Setup-environment-using-Docker)
 5. [Brief Introduction](#Brief-Introduction)
-
-### GOOGLE COLLAB Demo
-Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region. 
-- (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
 ### 1. Accessing the OCO2/OCO3 Datasets
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
@@ -30,22 +30,25 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
 [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
-### 2. Libraries installation
-- Data visualization of OCO2/OCO3 dataset:
-- Example:
-(Ctrl + Click) [Data_Visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
-- Libraries: 
-  - netCDF, pandas, numpy
-  - dask // to perfrom data aggregation and data-preprocessing
-  
+### 2. Data Pre-processing
+- primary data format for OCO2/OCO3 is netCDF4, affording users the capability to generate visualizations through software tools such as **Panalopy, QGIS, and ArcGIS** directly
+- For enhanced accessibility, netCDF files can also be converted into CSV format, providing users with a more straightforward means of data manipulation and analysis. Additionally, for the purpose of optimizing scalability and conserving storage space, the option to save files in the parquet format is also available.
+
+- GIS software tools:
+  - [Panolopy](https://www.giss.nasa.gov/tools/panoply/)
+  - [QGIS](https://www.qgis.org/en/site/forusers/download.html)
+
 ### 3. Data Visualization
-- Using different libraries for data visualization
-- Libraries: 
-  - matplotlib 
-  - pydap
-  - Plotly
-  - Basemap
-  - seaborn
+#### 3.a Single day file
+  - (Ctrl + Click) [Arset Tutorial 2022]([https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/ARSET_2022_Training))
+  - Utilization of the ARSET training script facilitates the visualization of OCO2/OCO3 data for a single day file, showcasing its practical application.
+  - Libraries: 
+    - netCDF, pandas, numpy, matplotlib, pydap, plotly, Basemap, seaborn
+    - dask // to perfrom data aggregation and data-preprocessing
+    
+#### 3.b Multiple files
+- We can use Dask Library to read multiple files and preprocess, visualize the data
+- (Ctrl + Click) [Data_Visualization Multiple files](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
 ### 4. Setup environment using Docker
 - 4.b. Using the docker to setup environment to install required packages:
