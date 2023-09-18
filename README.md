@@ -11,11 +11,11 @@ This means we have 2 of the same instruments that is currently flying and since 
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
 ## Table of Contents:
-1. [Accessing the OCO2/OCO3 Datasets](#Accessing the OCO2/OCO3 Datasets)
-2. [Libraries installation](#Libraries installation)
-3. [Data Visualization](#Data Visualization)
-4. [Setup environment using Docker](#Setup environment using Docker)
-5. [Brief Introduction](#Brief Introduction)
+1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
+2. [Libraries installation](#Libraries-installation)
+3. [Data Visualization](#Data-Visualization)
+4. [Setup environment using Docker](#Setup-environment-using-Docker)
+5. [Brief Introduction](#Brief-Introduction)
 
 ### GOOGLE COLLAB Demo
 Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region. 
