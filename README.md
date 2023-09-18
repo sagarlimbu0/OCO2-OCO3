@@ -11,8 +11,9 @@ This means we have 2 of the same instruments that is currently flying and since 
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
 ### Google Collab Demo; Data visualization of xco2
-Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region. 
+Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region.
 - (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
+![Google Collab](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg)
 
 ## Table of Contents:
 1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
@@ -29,14 +30,14 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 #### 1.b. Getting Data Access via APIs
 - The Earthdata Developer Portal serves as a hub for application developers interested in constructing software applications for searching, accessing, and exploring Earth science data hosted by EOSDIS
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
-- Below example demonstrates the API access to OpenDAP using **pydap** tool (client/server software)
+- Below example demonstrates the API access to OpenDAP using **pydap** tool (client/server software). Above Google collab demonstrates similar example.
   -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: (Ctrl + Click) [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
 ### 2. Data Pre-processing
 - primary data format for OCO2/OCO3 is netCDF4, affording users the capability to generate visualizations through software tools such as **Panalopy, QGIS, and ArcGIS** directly
 - For enhanced accessibility, netCDF files can also be converted into CSV format, providing users with a more straightforward means of data manipulation and analysis. Additionally, for the purpose of optimizing scalability and conserving storage space, the option to save files in the parquet format is also available.
-  - Converting netCDF files to CSV format [netCDF->csv]()
-  - Converting netCDF files to parquet format [netCDF->parquet](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Convert_netCDF_to_CSV_files/Convert_netCDF_to_PARQUET.ipynb)
+  - Converting netCDF files to CSV format (Ctrl + Click)[netCDF->csv]()
+  - Converting netCDF files to parquet format (Ctrl + Click)[netCDF->parquet](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Convert_netCDF_to_CSV_files/Convert_netCDF_to_PARQUET.ipynb)
 - Other GIS software tools:
   - [Panolopy](https://www.giss.nasa.gov/tools/panoply/)
   - [QGIS](https://www.qgis.org/en/site/forusers/download.html)
