@@ -9,12 +9,12 @@ is the sister of OCO2 because it has similar instrument sensitivity and performa
 When flying a payload on the International Space Station (ISS), the OCO3 mission was designed to fly with the flight spare.
 This means we have 2 of the same instruments that is currently flying and since they fly differently - polar orbit versus a processing orbit
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
-# Table of Contents:
-    1. Accessing the OCO2/OCO3 Datasets
-    2. Libraries installation
-    3. Data Visualization
-    4. Setup environment using Docker
-    5. Brief Introduction
+## Table of Contents:
+    1. [Accessing the OCO2/OCO3 Datasets](#Accessing the OCO2/OCO3 Datasets)
+    2. [Libraries installation](#Libraries installation)
+    3. [Data Visualization](#Data Visualization)
+    4. [Setup environment using Docker](#Setup environment using Docker)
+    5. [Brief Introduction](#Brief Introduction)
 ### GOOGLE COLLAB Demo
 - [Collab Script to get Data Access and Visualization](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
@@ -29,7 +29,7 @@ By visiting the website and following instructions provided on FAQ contents:
 -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
 [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
-### 2.a. Libraries to READ datasets
+### 2. Libraries installation
 - Data visualization of OCO2/OCO3 dataset:
 - Example:
 [Data_Visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
@@ -37,7 +37,7 @@ By visiting the website and following instructions provided on FAQ contents:
   - netCDF, pandas, numpy
   - dask // to perfrom data aggregation and data-preprocessing
   
-### 3.a. Data Visualization
+### 3. Data Visualization
 - Using different libraries for data visualization
 - Libraries: 
   - matplotlib 
@@ -45,11 +45,11 @@ By visiting the website and following instructions provided on FAQ contents:
   - Plotly
   - Basemap
   - seaborn
-### 4.a. Setup environment using Docker
+### 4. Setup environment using Docker
 - 4.b. Using the docker to setup environment to install required packages:
   - [setup env.](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization)
 
-### 5.a. Brief Introduction (OCO2/OCO3)
+### 5. Brief Introduction (OCO2/OCO3)
 The Earth system maintains checks and balances on carbon dioxide through the carbon cycle and what we call sources and sinks. Carbon dioxide (CO2) is one of the most important Greenhouse Gases (GHG) that supports life on Earth and the primary GHG quantifiable from anthropogenic sources. Thus, it is important to understand the role of atmospheric CO2 in understanding the carbon cycle balance. The primary science objective of the OCO-2 and OCO-3 missions is to collect the atmospheric carbon dioxide (CO2) dry air mole fraction, XCO2, with the precision, resolution, and coverage needed to improve our understanding of surface CO2 sources and sinks (fluxes) on regional scales. 
 The main objective of the project is to display datapoints of XCO2 and showing the change over time that can provide a status of the atmospheric Carbon cycle variability by the given year.
 
