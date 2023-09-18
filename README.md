@@ -35,15 +35,15 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 ### 2. Data Pre-processing
 - primary data format for OCO2/OCO3 is netCDF4, affording users the capability to generate visualizations through software tools such as **Panalopy, QGIS, and ArcGIS** directly
 - For enhanced accessibility, netCDF files can also be converted into CSV format, providing users with a more straightforward means of data manipulation and analysis. Additionally, for the purpose of optimizing scalability and conserving storage space, the option to save files in the parquet format is also available.
-  - Converting netCDF files to CSV format[nc->csv]()
-  - Converting netCDF files to parquet format[nc->parquet]()
+  - Converting netCDF files to CSV format [netCDF->csv]()
+  - Converting netCDF files to parquet format [netCDF->parquet](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Convert_netCDF_to_CSV_files/Convert_netCDF_to_PARQUET.ipynb)
 - Other GIS software tools:
   - [Panolopy](https://www.giss.nasa.gov/tools/panoply/)
   - [QGIS](https://www.qgis.org/en/site/forusers/download.html)
 
 ### 3. Data Visualization
 #### 3.a Single day file
-  - (Ctrl + Click) [Arset Tutorial 2022]([https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/ARSET_2022_Training))
+  - (Ctrl + Click) [Arset Tutorial 2022](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/ARSET_2022_Training)
   - Utilization of the ARSET training script facilitates the visualization of OCO2/OCO3 data for a single day file, showcasing its practical application.
   - Libraries: 
     - netCDF, pandas, numpy, matplotlib, pydap, plotly, Basemap, seaborn
