@@ -1,6 +1,7 @@
 # ARSET Training 2022 Spring
 ## Youtube demonstration of ARSET training 2022
-[ARSET_youtube]([ARSET_A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data](https://www.youtube.com/watch?v=2ZILcjYB9Fk&t=1s&ab_channel=NASAVideo)
+
+CTRL+click (on Windows and Linux) or CMD+click (on MacOS) [ARSET_youtube]([ARSET_A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data](https://www.youtube.com/watch?v=2ZILcjYB9Fk&t=1s&ab_channel=NASAVideo)
 
 - **Accessing the OCO2/OCO3 Dataset:** It furnishes step-by-step instructions on how to access the OCO2/OCO3 dataset, ensuring that users can retrieve the requisite data effectively.
 - **Analysis of the OCO2/OCO3 Dataset Using Python:** The tutorial goes on to elucidate the process of conducting data analysis on the OCO2/OCO3 dataset through the utilization of Python. It outlines the necessary procedures and methodologies required for this task.
@@ -34,8 +35,3 @@ OCO-2 Data files are large so it will take some time to download!
 5. Example three- Same location and time but shown over Google Earth for OCO-2 data
 6. Example four- Same location and time but show over Google Earth for OCO-3 data
 7. Example five – GIF showing OCO-3 data on spinning globe
-
-CTRL+click (on Windows and Linux) or CMD+click (on MacOS)
-
-[ARSET_A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data](https://www.youtube.com/watch?v=2ZILcjYB9Fk&t=1s&ab_channel=NASAVideo)
-
