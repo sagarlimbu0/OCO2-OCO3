@@ -30,7 +30,7 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
 [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
-###2. Libraries installation
+### 2. Libraries installation
 - Data visualization of OCO2/OCO3 dataset:
 - Example:
 (Ctrl + Click) [Data_Visualization](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
