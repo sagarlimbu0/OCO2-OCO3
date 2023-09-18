@@ -13,6 +13,7 @@ This is really fantastic opportunity for science because It really permits NASA 
 ### Google Collab Demo; Data visualization of xco2
 Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region.
 - (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
+
 ![Google Collab](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg)
 
 ## Table of Contents:
