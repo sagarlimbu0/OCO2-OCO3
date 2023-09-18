@@ -1,7 +1,7 @@
 # ARSET Training 2022 Spring
 ## Youtube demonstration of ARSET training 2022
 
-CTRL+click (on Windows and Linux) or CMD+click (on MacOS) 
+CTRL+click (on Windows and Linux) or CMD+click (on MacOS)
 **ARSET_youtube**([ARSET_A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data](https://www.youtube.com/watch?v=2ZILcjYB9Fk&t=1s&ab_channel=NASAVideo)
 
 - **Accessing the OCO2/OCO3 Dataset:** It furnishes step-by-step instructions on how to access the OCO2/OCO3 dataset, ensuring that users can retrieve the requisite data effectively.
