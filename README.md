@@ -21,7 +21,7 @@ This is really fantastic opportunity for science because It really permits NASA 
  Run the google collab script to get access the OCO data from pydap server. We can use the `vertex` of the carbon footprints for visualization. 
 - [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
-### 1. Accessing the OCO2/OCO3 Datasets
+### Accessing the OCO2/OCO3 Datasets
 #### 1.a. Getting started with EarthData Search website:
 By visiting the website and following instructions provided on FAQ contents:
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
