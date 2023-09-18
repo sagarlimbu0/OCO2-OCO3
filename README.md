@@ -30,14 +30,14 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 - The Earthdata Developer Portal serves as a hub for application developers interested in constructing software applications for searching, accessing, and exploring Earth science data hosted by EOSDIS
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
 - Below example demonstrates the API access to OpenDAP using **pydap** tool (client/server software)
--  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
-[using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
+  -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
 ### 2. Data Pre-processing
 - primary data format for OCO2/OCO3 is netCDF4, affording users the capability to generate visualizations through software tools such as **Panalopy, QGIS, and ArcGIS** directly
 - For enhanced accessibility, netCDF files can also be converted into CSV format, providing users with a more straightforward means of data manipulation and analysis. Additionally, for the purpose of optimizing scalability and conserving storage space, the option to save files in the parquet format is also available.
-
-- GIS software tools:
+  - Converting netCDF files to CSV format[nc->csv]()
+  - Converting netCDF files to parquet format[nc->parquet]()
+- Other GIS software tools:
   - [Panolopy](https://www.giss.nasa.gov/tools/panoply/)
   - [QGIS](https://www.qgis.org/en/site/forusers/download.html)
 
