@@ -22,11 +22,14 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 5. [Brief Introduction](#Brief-Introduction)
 
 ### 1. Accessing the OCO2/OCO3 Datasets
+- To download OCO2/OCO3 data files from the Earth Data Search website, you can follow these steps: First, access the Earth Data Search website and navigate to the OCO2/OCO3 dataset of interest. Then, specify your search criteria such as time range, geographical area, and data product type. You may need to log in or create an account if prompted. Finally, follow the on-screen instructions to complete the download process, and once the files are downloaded, they can be accessed and utilized for further analysis or visualization.
+- [Data Tools provided by EarthData](https://www.earthdata.nasa.gov/learn/use-data/tools)
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
 
 #### 1.b. Getting Data Access via APIs
+- The Earthdata Developer Portal serves as a hub for application developers interested in constructing software applications for searching, accessing, and exploring Earth science data hosted by EOSDIS
 - (Ctrl+click) [earthdataAPI](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api#edsc)
-- In this example, we have used OpenDAP tool (client/server software)
+- Below example demonstrates the API access to OpenDAP using **pydap** tool (client/server software)
 -  Eg: with python's `pydap` we can request to get access the OCO2 datasets using credentials from EarthData login: 
 [using openDap](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
