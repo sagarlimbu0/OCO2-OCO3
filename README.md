@@ -56,10 +56,8 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 - (Ctrl + Click) [Data_Visualization Multiple files](https://github.com/sagarlimbu0/OCO2-OCO3/tree/main/Data_Visualization_OCO2_OCO3)
 
 ### 4. Setup environment using Docker
-- Docker-Based Environment Setup: To facilitate the installation of the necessary packages and libraries, the deployment of Docker containers is recommended. This approach streamlines the environment configuration process and ensures consistent dependencies.
-
-- Containerization as Docker Image: For further versatility, the environment can be containerized into a Docker image. This Docker image can subsequently be deployed as a web application or a Jupyter server on Amazon Web Services (AWS). Comprehensive guidelines on these deployment processes can be found within the repository documentation, offering in-depth insights into the steps required for successful implementation.
-
+- **Docker-Based Environment Setup:** To facilitate the installation of the necessary packages and libraries, the deployment of Docker containers is recommended. This approach streamlines the environment configuration process and ensures consistent dependencies.
+- **Containerization as Docker Image:** For further versatility, the environment can be containerized into a Docker image. This Docker image can subsequently be deployed as a web application or a Jupyter server on Amazon Web Services (AWS). Comprehensive guidelines on these deployment processes can be found within the repository documentation, offering in-depth insights into the steps required for successful implementation.
 - These procedures enhance the efficiency and reproducibility of the environment setup, enabling the seamless installation of essential components while providing flexibility in deploying the system as a web application or Jupyter server via AWS infrastructure. Further details are available in the repository documentation for comprehensive guidance.
 - (Ctrl + Click) [Setting-up-Environment](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization)
 
