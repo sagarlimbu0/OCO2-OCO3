@@ -15,6 +15,7 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 - (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
 ![Google Collab](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg)
+<img src="https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg" alt="Google Colab" width="300" height="200">
 
 ## Table of Contents:
 1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
