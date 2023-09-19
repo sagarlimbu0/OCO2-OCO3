@@ -11,8 +11,9 @@ This means we have 2 of the same instruments that is currently flying and since 
 This is really fantastic opportunity for science because It really permits NASA to study CO2 over different areas of the globe. 
 
 ### Google Collab Demo; Data visualization of xco2
-Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region.
-- (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
+- Users are encouraged to revisit this section after completing the tutorials and attempt to execute the provided script on Google Colab.
+- Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region.
+  - (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
 <img src="https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg" alt="Google Colab" width="800" height="400">
 
@@ -24,6 +25,7 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 5. [Demonstration](#Demonstration)
 
 ### 1. Accessing the OCO2/OCO3 Datasets
+- In this tutorial, we will guide you through the process of using a Python script. We'll assume that you have some basic programming knowledge.
 - To download OCO2/OCO3 data files from the Earth Data Search website, you can follow these steps: First, access the Earth Data Search website and navigate to the OCO2/OCO3 dataset of interest. Then, specify your search criteria such as time range, geographical area, and data product type. You may need to log in or create an account if prompted. Finally, follow the on-screen instructions to complete the download process, and once the files are downloaded, they can be accessed and utilized for further analysis or visualization.
 - Prior to proceeding with this tutorial, users can visit the following hyperlink. Within the EarthData platform, a variety of Data Application tools are available for access. Each of these data tools is designed to perform distinct functions, encompassing search criteria utilization, data handling, subsetting and filtering, as well as data visualization and analysis capabilities.
 - (Ctrl + Click) [Data Tools provided by EarthData](https://www.earthdata.nasa.gov/learn/use-data/tools)
