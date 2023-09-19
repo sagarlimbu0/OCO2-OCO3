@@ -18,13 +18,14 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 
 ## Table of Contents:
 1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
-2. [Libraries installation](#Libraries-installation)
+2. [Data Pre-processing](#Data-Pre-processing)
 3. [Data Visualization](#Data-Visualization)
 4. [Setup environment using Docker](#Setup-environment-using-Docker)
 5. [Demonstration](#Demonstration)
 
 ### 1. Accessing the OCO2/OCO3 Datasets
 - To download OCO2/OCO3 data files from the Earth Data Search website, you can follow these steps: First, access the Earth Data Search website and navigate to the OCO2/OCO3 dataset of interest. Then, specify your search criteria such as time range, geographical area, and data product type. You may need to log in or create an account if prompted. Finally, follow the on-screen instructions to complete the download process, and once the files are downloaded, they can be accessed and utilized for further analysis or visualization.
+- Prior to proceeding with this tutorial, users can visit the following hyperlink. Within the EarthData platform, a variety of Data Application tools are available for access. Each of these data tools is designed to perform distinct functions, encompassing search criteria utilization, data handling, subsetting and filtering, as well as data visualization and analysis capabilities.
 - (Ctrl + Click) [Data Tools provided by EarthData](https://www.earthdata.nasa.gov/learn/use-data/tools)
 - (Ctrl + Click) [EarthDataSearch: FAQ](https://www.earthdata.nasa.gov/faq/earthdata-search-faq)
 
@@ -61,7 +62,7 @@ Execute the Google Colab script to gain access to OCO data from the PyDAP server
 - These procedures enhance the efficiency and reproducibility of the environment setup, enabling the seamless installation of essential components while providing flexibility in deploying the system as a web application or Jupyter server via AWS infrastructure. Further details are available in the repository documentation for comprehensive guidance.
 - (Ctrl + Click) [Setting-up-Environment](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization)
 
-### 5. Demonstration (OCO2/OCO3)
+### 5. Demonstration of XCO2 using vertices (OCO2/OCO3)
 The principal aim of this project is to present data points representing XCO2 and illustrate their temporal evolution, thereby offering insight into the variability of the atmospheric carbon cycle for a specified year. In this context, the project utilizes the "vertices" attributes of carbon footprints to generate polygonal shapes, facilitating the visualization of carbon footprint patterns. 
 
 ### target region: San Francisco
