@@ -2,7 +2,7 @@
 
 * Sagar Limbu
 * <b>Mentors:</b> Karen Yuen and Charles Thompson
-![OCO2_OCO3](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/OCO2_OCO3.png)
+![OCO2_OCO3](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/OCO2_OCO3.png)
 
 <b>OCO2</b> is the first dedicated satellite to study Carbon Dioxide launched in July 2, 2014 and <b>OCO3</b> 
 is the sister of OCO2 because it has similar instrument sensitivity and performance characteristics to OCO2.
@@ -15,7 +15,7 @@ This is really fantastic opportunity for science because It really permits NASA 
 - Execute the Google Colab script to gain access to OCO data from the PyDAP server. Subsequently, we may utilize the carbon footprint vertices for visualization purposes within a specified geographic region.
   - (Ctrl + Click) [Collab Script](https://colab.research.google.com/drive/1Qda7ldoIl1HHXskGfa-D9zrWp_8noWBT?authuser=2)
 
-<img src="https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/pydap_access.jpg" alt="Google Colab" width="800" height="400">
+<img src="https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/pydap_access.jpg" alt="Google Colab" width="800" height="400">
 
 ## Table of Contents:
 1. [Accessing the OCO2/OCO3 Datasets](#Accessing-the-OCO2/OCO3-Datasets)
@@ -68,14 +68,14 @@ This is really fantastic opportunity for science because It really permits NASA 
 The principal aim of this project is to present data points representing XCO2 and illustrate their temporal evolution, thereby offering insight into the variability of the atmospheric carbon cycle for a specified year. In this context, the project utilizes the "vertices" attributes of carbon footprints to generate polygonal shapes, facilitating the visualization of carbon footprint patterns. 
 
 ### target region: San Francisco
-![alt_text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/oco3_xco2_visualization.png)
+![alt_text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/oco3_xco2_visualization.png)
 
 ### Global Scale of XCO2 seasonality trends
-![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/2019_half_year.gif)
+![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/2019_half_year.gif)
 
 ### OCO2, XCO2 variation by months
 OCO2 data representing the variation of XCO2 by different years. THe visualization built on R code located inside ARSET/ directory representing the california region. <b>NOTE:</b> OCO2 launched on 2014 July, so for this reason the plots displayed in the later months.
 
-![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/animation_visuals/variation_by_months_oco2_2014_2020.gif)
+![alt text](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/variation_by_months_oco2_2014_2020.gif)
 
 - for any questions, please raise issue in this repository. Thanks
