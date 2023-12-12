@@ -6,5 +6,8 @@ user requirements.
 - The script facilitates the retrieval of files from the OpenDap Server, subsequently converting them into CSV format. Key variables encompassed in the output 
 include longitude, latitude, xco2_quality_flag (0 and 1), xco2, and dateTime.
 
+### Note: 
+- This is ongoing development code. Future work will be customized to perform Asynchronous operations on data requests to the server. This will perform multiple consecutive requests which should be significantly faster than the current operation.
+
 ### Instructions:
 ![download_files](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/static_data/instructions.jpg)
