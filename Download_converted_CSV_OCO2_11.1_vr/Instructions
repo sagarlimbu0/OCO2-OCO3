@@ -1,0 +1,22 @@
+###########################################################
+## objective: Setting up environment and executing the code
+
+1. Open up a terminal with command-line interface
+    (Linux; use sudo if required and ask admin for sudo privelage)
+    `apt install python3.10-venv`
+2. Setup a virtual environment and activate the environment.
+    `python3 -m venv env`
+    `source env/bin/activate`
+3. Now install `pip` tool if not already installed. Pip is a pacakage manager for pyhton packages. This will install the required packages
+    to execute the code -> `download_OCO2_data_with_pydap.py`.
+4. Install the requied libraries to execute the code. The required packages can be installed with the requirements.txt
+    `pip install -r requirements.txt`
+5. Run the code as per instructions provided on the dispaly: 
+    - This depends on python env. you have set up. For example, the cmd below runs the application using Python3 ver. EG:
+    `python3 download_OCO2_data_with_pydap.py`
+    `python download_OCO2_data_with_pydap.py`
+6. Second alternative is to run the bash script `run.sh`. This will run all the command-line codes from above in sequence.
+    - To perform this operation
+    `./run.sh`
+
+## NOTE: This is ongoing development code. Future work will be customized to perform `Asynchronous` operations on data requests from the server. This will perform multiple consecutive requests which will be significantly faster than the current operation.

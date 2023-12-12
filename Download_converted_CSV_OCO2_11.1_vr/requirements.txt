@@ -1,0 +1,16 @@
+IPython
+maskpass
+pytest
+poetry
+numpy
+pandas
+pydap
+basemap
+matplotlib
+plotly
+netCDF4
+bs4
+geopy
+pyarrow
+lxml
+tqdm
