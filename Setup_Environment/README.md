@@ -7,12 +7,12 @@
 source: (https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Access%20GES%20DISC%20Data%20Using%20Python)
 
 ## Reading the data:
-![options](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/screenshots/data_access_visualization.jpeg)
+![options]([https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/screenshots/data_access_visualization.jpeg](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Setup_Environment/screenshots/data_access_visualization.jpeg))
 
 ## Converting the OCO netCDF files to geoTIFF
 - We cannot convert netCDF file directly to geoTIFF version, since the data are L2 gridded data
 - We need to convert to `JSON` format and convert to geoTIFF
 
-![conv](https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/screenshots/creating_tiff_file.jpg)
+![conv]([https://github.com/sagarlimbu0/oco2-oco3_data_access_visualization/blob/main/screenshots/creating_tiff_file.jpg](https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Setup_Environment/screenshots/creating_tiff_file.jpg)https://github.com/sagarlimbu0/OCO2-OCO3/blob/main/Setup_Environment/screenshots/creating_tiff_file.jpg)
 
 
