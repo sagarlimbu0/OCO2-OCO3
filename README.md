@@ -1,6 +1,6 @@
 ## OCO2-OCO3
 
-![Arset 2022_Training_Information](https://appliedsciences.nasa.gov/sites/default/files/2022-05/XCO2_Part2_final.pdf](https://appliedsciences.nasa.gov/get-involved/training/english/arset-measuring-atmospheric-carbon-dioxide-space-support-climate)
+![Arset 2022_Training_Information](https://appliedsciences.nasa.gov/get-involved/training/english/arset-measuring-atmospheric-carbon-dioxide-space-support-climate)
 
 * Sagar Limbu
 * <b>Mentors:</b> Karen Yuen and Charles Thompson
